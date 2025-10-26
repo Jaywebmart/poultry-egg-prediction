@@ -36,3 +36,7 @@ The model generalizes well, balancing accuracy and interpretability.
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
+
+Developed with ❤️ by [Ayodeji Oroboade]
+📍 Connect with me on LinkedIn [www.linkedin.com/in/ayodeji-oroboade-9106aa1b0]
