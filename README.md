@@ -1,26 +1,38 @@
-# 🥚 Poultry Egg Production Predictor
+# 🐔 Poultry Egg Production Prediction App
 
-An AI-powered Streamlit web app that predicts daily egg production in poultry farms based on feeding and environmental factors.
+This project leverages **machine learning** to help poultry farmers predict daily egg production based on environmental and feeding factors.  
+It uses a **Random Forest Regression** model and provides a simple **Streamlit** web app interface for easy use.
 
-## 🚀 Features
-- Real-time prediction using Random Forest Regression
-- Automatic confidence feedback for farm conditions
-- Interactive feature importance visualization
-- Clean, simple Streamlit UI
+---
+
+## 🌱 Project Overview
+Accurately predicting egg production helps farmers:
+- Optimize feed use and reduce waste 🪶  
+- Detect environmental stressors early 🌡️  
+- Improve overall productivity and profitability 💰  
+
+---
+
+## ⚙️ Features
+- Predict daily egg output using real farm data
+- Visualize model performance (R², MAE, RMSE)
+- Explore feature importance through charts
+- Interactive Streamlit dashboard for users
+
+---
 
 ## 🧠 Model Summary
-- **Algorithm:** Random Forest Regressor
-- **R²:** 0.974
-- **MAE:** 19.71
-- **RMSE:** 33.86
+| Metric | Score |
+|--------|--------|
+| R² Score | **0.974** |
+| MAE | **19.71** |
+| RMSE | **33.86** |
 
-## 🧩 How It Works
-The model uses both direct farm inputs and derived features:
-- **Feed per Chicken = Feeding / Number of Chickens**
-- **Environmental Stress Index = Temperature × Humidity × Ammonia**
+The model generalizes well, balancing accuracy and interpretability.
 
+---
 
-## ⚙️ How to Run
+## 🚀 How to Run Locally
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
