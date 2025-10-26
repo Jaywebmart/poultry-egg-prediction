@@ -14,6 +14,12 @@ An AI-powered Streamlit web app that predicts daily egg production in poultry fa
 - **MAE:** 19.71
 - **RMSE:** 33.86
 
+## 🧩 How It Works
+The model uses both direct farm inputs and derived features:
+- **Feed per Chicken = Feeding / Number of Chickens**
+- **Environmental Stress Index = Temperature × Humidity × Ammonia**
+
+
 ## ⚙️ How to Run
 ```bash
 pip install -r requirements.txt
