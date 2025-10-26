@@ -31,12 +31,13 @@ Accurately predicting egg production helps farmers:
 The model generalizes well, balancing accuracy and interpretability.
 
 ---
+## Developed with ❤️ by [Ayodeji Oroboade]
+📍 Connect with me on LinkedIn [www.linkedin.com/in/ayodeji-oroboade-9106aa1b0]
+
 
 ## 🚀 How to Run Locally
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+---
 
-
-Developed with ❤️ by [Ayodeji Oroboade]
-📍 Connect with me on LinkedIn {www.linkedin.com/in/ayodeji-oroboade-9106aa1b0}
